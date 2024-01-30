@@ -1,0 +1,228 @@
+* body{
+
+    /* Estas propiedades permiten resetear todos los estilos*/
+      background-color: azure;
+      scroll-behavior: smooth;
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;}
+
+
+
+
+.solicitud-vacaciones {
+    width: 100%;
+    max-width: 500px;
+    margin: 0 auto;
+  }
+  
+  h2 {
+    font-size: 1.5em;
+    margin-bottom: 20px;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+  }
+  
+  label {
+    font-size: 1em;
+    margin-bottom: 10px;
+  }
+  
+  input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+
+  liquidacion-sueldo {
+    width: 100%;
+    max-width: 500px;
+    margin: 0 auto;
+  }
+  
+  h2 {
+    font-size: 1.5em;
+    margin-bottom: 20px;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+  }
+  
+  label {
+    font-size: 1em;
+    margin-bottom: 10px;
+  }
+  
+  input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .botones {
+    display: flex;
+    justify-content: center;
+  }
+  
+  button {
+    width: 100px;
+    padding: 10px;
+    background-color: #000;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  
+.liquidacion-sueldo{
+    width: 100%;
+    max-width: 500px;
+    margin: 0 auto;
+  }
+  
+  h2 {
+    font-size: 1.5em;
+    margin-bottom: 20px;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+  }
+  
+  label {
+    font-size: 1em;
+    margin-bottom: 10px;
+  }
+  
+  input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+
+  liquidacion-sueldo {
+    width: 100%;
+    max-width: 500px;
+    margin: 0 auto;
+  }
+  
+  h2 {
+    font-size: 1.5em;
+    margin-bottom: 20px;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+  }
+  
+  label {
+    font-size: 1em;
+    margin-bottom: 10px;
+  }
+  
+  input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .botones {
+    display: flex;
+    justify-content: center;
+  }
+  
+  button {
+    width: 100px;
+    padding: 10px;
+    background-color: #000;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+
+  .consulta-contrato {
+    width: 100%;
+    max-width: 500px;
+    margin: 0 auto;
+  }
+  
+  h2 {
+    font-size: 1.5em;
+    margin-bottom: 20px;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+  }
+  
+  label {
+    font-size: 1em;
+    margin-bottom: 10px;
+  }
+  
+  input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .resultado {
+    display: none;
+  }
+
+  @media (max-width: 768px) {
+    .contenedor {
+      display: flex;
+      flex-direction: column;
+    }
+  
+    .fila {
+      width: 100%;
+    }
+  
+    .columna {
+      width: 100%;
+    }
+  }
+
+  .grid-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+  }
+  
+  .solicitud-vacaciones,
+  .liquidacion-sueldo,
+  .consulta-contrato {
+    background-color: #f0f0f0;
+    padding: 20px;
+    border-radius: 5px;
+  }
+  
+
+  .boton-enviar, .boton-generar, .boton-consultar {
+    font-weight: bold;
+    color: white;
+    background-color: black
+  }

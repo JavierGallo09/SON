@@ -1,0 +1,50 @@
+* body{
+
+  /* Estas propiedades permiten resetear todos los estilos*/
+    background-color: azure;
+    scroll-behavior: smooth;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;}
+
+  
+    h1{ /* centrar elementos*/
+      padding: 2px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+    }
+
+
+
+  .container {
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  .input-group {
+    width: 48%; /* ajusta según sea necesario */
+    margin-bottom: 10px;
+ 
+  }
+
+  .bi{
+    margin-right: 10px;
+transform: scale(2);
+
+  }
+
+.botones {
+      display: flex;
+      justify-content: center;
+      margin-top: 20px;
+    }
+
+    .botones button {
+      margin: 0 10px;
+    }
+    #inputGroup-sizing-default{
+      font-weight: bold;
+    }

@@ -1,0 +1,96 @@
+* body{
+background-color: azure;
+scroll-behavior: smooth;
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+  }
+/* boton administrador*/
+  .btn-admin {
+   background-color: #FF0000;
+   font-size:xx-large; color: #000;
+   font-family: Arial, Helvetica, sans-serif;
+   text-align:center;
+   box-shadow: 7px 13px 37px #000;
+   font-weight: bold;
+   margin-bottom: 20px;
+   width: 250px;
+   height: auto;
+    
+   
+   
+  }
+/* boton usuario*/
+  .btn-user {
+    background-color:#00FF00;
+    font-size: xx-large; color: #000;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    box-shadow: 7px 13px 37px #000000;
+    margin-right: 10px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    width: 250px;
+    height: auto;
+    
+    
+    
+    }
+
+    /* iconos*/
+    .icono-1{ /*display: grid; place-items: center;  SE UTILIZA PARA CENTRAR UN ELEMENTO     display:flex:;  flex-direction:column; align-items:center;  justify-content:center; margin:auto;   */
+      display: flex;
+      justify-content: center;
+      align-items: center;
+  height: 100px;
+  margin-bottom: 20px;
+      }
+
+      /* iconos*/
+    .icono-2{ /*display: grid; place-items: center;  SE UTILIZA PARA CENTRAR UN ELEMENTO     display:flex:;  flex-direction:column; align-items:center;  justify-content:center; margin:auto;   */
+      display: flex;
+      justify-content: center;
+      align-items: center;
+  height: 100px;
+  margin-bottom: 20px;
+    
+      }
+
+      .container-fluid{
+        display:flex;  
+        flex-direction:column; 
+        align-items:center;  
+        justify-content:center; 
+        width: 400px;
+        background-color: azure;
+padding: 30px;
+margin: 30px;
+margin: auto;
+margin-top: 150px;
+border-radius: 4px;
+font-family: Arial, Helvetica, sans-serif;
+color: #000;
+box-shadow: 7px 13px 37px #000;
+font-weight: bold;
+position: relative;
+      }
+
+   
+
+  .container {
+    margin-top: 20px; /* Ajusta según sea necesario */
+  }
+
+  .logo {
+    text-align: center;
+  }
+
+  .logo img {
+    max-width: 100%;
+    height: auto;
+  }
+
+  .container-fluid {
+    text-align: center;
+    margin-top: 20px; /* Ajusta según sea necesario */
+  }

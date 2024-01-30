@@ -1,0 +1,75 @@
+* body{
+
+    /* Estas propiedades permiten resetear todos los estilos*/
+      background-color: azure;
+      scroll-behavior: smooth;
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;}
+  
+  
+  
+  
+      .container{
+        margin: 50px auto;
+        max-width: auto;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+  align-items: center;
+        
+         
+      }
+  
+      
+      
+    
+
+  /*Barra de navegacion*/
+     header{
+      display: flex;
+    align-items: start;
+    margin-top: auto;
+    border: 2px solid black
+    
+    
+     }
+   
+    
+    
+      .icon{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+  
+   
+      }
+  
+      .menu {
+        margin: 10px auto;
+        display: flex;
+  justify-content: space-around;
+      }
+
+  .menu .button{
+   width:  150px;
+    margin-top: 10px;
+  
+
+  }
+
+ .btn{
+  font-size: large;
+ }
+  
+  .btn-outline-success{
+    background-color: black;
+    color: beige;
+    width: 100px 0;
+    height: 100px 0;
+    
+  
+  }
+
+  

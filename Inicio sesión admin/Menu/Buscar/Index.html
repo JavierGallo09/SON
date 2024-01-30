@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SON</title>
+    <link rel="icon" type="image/x-icon" href="img/interfaz_gráfica_y_mapa_de_navegacion__2_-removebg-preview.png">
+    
+    <!-- BOOSTRAP-->
+    <link
+    href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css"
+    rel="stylesheet"
+    integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9"
+    crossorigin="anonymous"/>
+    <link rel="preload" href="Styles/normalize.css" as="Style">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="preload" href="style4.css" as="Style" />
+    <link rel="stylesheet" href="style4.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+  </head>
+
+  
+  <body>
+    <nav class="navbar bg-body-tertiary"><!--Barra de navegación-->
+      <div class="container-fluid">
+        <!--<svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-arrow-big-left-lines-filled" width="44" height="44" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+          <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+          <path d="M9.586 4l-6.586 6.586a2 2 0 0 0 0 2.828l6.586 6.586a2 2 0 0 0 2.18 .434l.145 -.068a2 2 0 0 0 1.089 -1.78v-2.586h2a1 1 0 0 0 1 -1v-6l-.007 -.117a1 1 0 0 0 -.993 -.883l-2 -.001v-2.585a2 2 0 0 0 -3.414 -1.414z" stroke-width="0" fill="currentColor" />
+          <path d="M21 8a1 1 0 0 1 .993 .883l.007 .117v6a1 1 0 0 1 -1.993 .117l-.007 -.117v-6a1 1 0 0 1 1 -1z" stroke-width="0" fill="currentColor" />
+          <path d="M18 8a1 1 0 0 1 .993 .883l.007 .117v6a1 1 0 0 1 -1.993 .117l-.007 -.117v-6a1 1 0 0 1 1 -1z" stroke-width="0" fill="currentColor" />
+        </svg>-->
+        <a class="navbar-brand" href="/Seleccionar rol/Index.html">
+          <img src="/Inicio sesión admin/Menu/IMG/logo_empresa_SON-removebg-preview.png" alt="Logo" width="30" height="24" class="d-inline-block align-text-top">
+          SON
+        </a>
+        <a href="/Inicio sesión admin/Menu/Index.html">
+        <i class="bi bi-house-door-fill"></i>
+        </a>
+      </div>
+    
+    
+  
+    </nav>
+
+<header>
+ <div>
+  <h1>Registro de empleados</h1>
+</div>
+
+    <div class="container mb-3">
+      <form class="d-flex" role="search">
+        <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Buscar">
+        <button class="btn btn-outline-success" type="submit">Buscar</button>
+      </form>
+    </div>
+<div class="container contenedor-check">
+    <div class="form-check">
+      <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+      <label class="form-check-label" for="flexRadioDefault1">
+        N° de empleados
+      </label>
+    </div>
+    <div class="form-check">
+      <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked>
+      <label class="form-check-label" for="flexRadioDefault2">
+        Nombre
+      </label>
+    </div>
+  </div>
+</header>
+    <div class="container">
+      <div class="row">
+        <div class="col">
+
+<table class="table table-secondary">
+  <thead>
+    <tr>
+      <th scope="col">#</th>
+      <th scope="col">Nombres</th>
+      <th scope="col">Apellidos</th>
+      <th scope="col">N° documento</th>
+      <th scope="col">N° contrato</th>
+      <th scope="col">Area</th>
+      <th scope="col">Tipo de contrato</th>
+      <th scope="col">Correo Electrónico</th>
+      <th scope="col">Ingresos</th>
+      <th scope="col">Novedades</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th scope="row">1</th>
+      <td>María Isabel</td>
+      <td>García Rodríguez</td>
+      <td>1234567890</td>
+      <td>123456</td>
+      <td>Recursos Humanos</td>
+      <td>Contrato a Tiempo Indefinido</td>
+      <td>maria.garcia@email.com</td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <th scope="row">2</th>
+      <td>Juan Carlos</td>
+      <td>López Martínez</td>
+      <td>9876543210</td>
+      <td>789012</td>
+      <td>Ventas</td>
+      <td>Contrato a Tiempo Fijo</td>
+      <td>juan.lopez@email.com</td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <th scope="row">3</th>
+      <td>Ana Beatriz</td>
+      <td>Torres Gómez</td>
+      <td>0123456789</td>
+      <td>345678</td>
+      <td>Marketing</td>
+      <td>Contrato a Tiempo Indefinido</td>
+      <td>ana.torres@email.com</td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <th scope="row">4</th>
+      <td>Daniel Alonso</td>
+      <td>Herrera López</td>
+      <td>8976543210</td>
+      <td>7896543210</td>
+      <td>TECNOLOGIA</td>
+      <td>Contrato a Tiempo Indefinido</td>
+      <td>daniel.herrera@email.com</td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <th scope="row">5</th>
+      <td>Luis Eduardo</td>
+      <td>Mendoza Vargas</td>
+      <td>7896543210</td>
+      <td>901234</td>
+      <td>TECNOLOGIA</td>
+      <td>Contrato a Tiempo Indefinido</td>
+      <td>dluis.mendoza@email.com</td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <th scope="row">6</th>
+      <td>Gabriela Fernanda </td>
+      <td>Ruiz Jiménez</td>
+      <td>6789654321</td>
+      <td>567890</td>
+      <td>Finanzas</td>
+      <td>Contrato a Tiempo Fijo</td>
+      <td>gabriela.ruiz@email.com</td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <th scope="row">7</th>
+      <td>Andrés Felipe</td>
+      <td>Castro Pérez</td>
+      <td>5678965432</td>
+      <td>234567</td>
+      <td>Producción</td>
+      <td>Contrato a Tiempo Indefinido</td>
+      <td>andres.castro@email.com</td>
+      <td></td>
+      <td></td>
+      
+    </tr>
+    <tr>
+      <th scope="row">8</th>
+      <td>Laura Estefanía</td>
+      <td>Silva Ortiz</td>
+      <td>4567896543</td>
+      <td>890123</td>
+      <td>Recursos Humanos</td>
+      <td>Contrato a Tiempo Fijo</td>
+      <td>laura.silva@email.com</td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <th scope="row">9</th>
+      <td>Alejandro José</td>
+      <td>Ramirez Sánchez</td>
+      <td>3456789654</td>
+      <td>456789</td>
+      <td>Ventas</td>
+      <td>Contrato a Tiempo Indefinido</td>
+      <td>alejandro.ramirez@email.com</td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <th scope="row">10</th>
+      <td>Carla Patricia</td>
+      <td>González Cruz</td>
+      <td>3210987654</td>
+      <td>012345</td>
+      <td>Marketing</td>
+      <td>Contrato a Tiempo Fijo</td>
+      <td>carla.gonzalez@email.com</td>
+      <td></td>
+      <td></td>
+    </tr>
+    
+    
+  </tbody>
+</table>
+
+        
+        </div>
+      </div>
+    </div>
+    
+
+
+     <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+      crossorigin="anonymous"
+    ></script>
+   </body>
+</html>

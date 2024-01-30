@@ -1,0 +1,88 @@
+* body{
+
+  /* Estas propiedades permiten resetear todos los estilos*/
+    background-color: azure;
+    scroll-behavior: smooth;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;}
+
+
+
+
+    .container{
+      margin: 1px auto;
+      max-width: 900px;
+      width: 100%;
+      display: flex;
+      justify-content: center;
+align-items: center;
+
+      
+       
+    }
+
+    
+    
+    .card{
+        display: flex;
+      justify-content: center;
+      align-items: center;
+      margin: 1px;
+      border: 5px solid black
+
+    
+      
+    
+    }
+
+    .card-title {
+      color: blue;
+      font-size: 20px;
+
+
+    }
+/*Barra de navegacion*/
+   .nav{
+    position:fixed;
+    display: flex;
+  align-items: start;
+  justify-content: flex-end;
+ 
+  
+   }
+ 
+   .navbar{
+    border: 2px solid black;
+   }
+
+
+  
+    .icon{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: space-evenly;
+
+
+    }
+
+   a{ /* animar los enlaces*/
+    box-shadow: inset 0 0 0 0 blue;
+    color:black;
+    margin:0 -0.100rem;
+    padding:0 -0.100rem;
+    transition: color 0.3s ease-in-out box-shadow 0.3s ease-in-out;
+   }
+
+   .logo:hover {
+    box-shadow: none;
+    color: black;
+  }
+  
+   a:hover{ /* animar los enlaces*/
+box-shadow: inset 200px 0 0 0 blue;
+color: white;
+
+    }
+    
